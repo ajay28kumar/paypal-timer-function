@@ -20,7 +20,7 @@ const TimerContainer = props => {
     const {timerDetails, setTimerDetails} = useTimerDetails([]);
     const classes = useStyles();
     return (
-        <Grid container spacing={4} className={classes.container}>
+        <Grid container className={classes.container}>
             <AddTimer timerDetails={timerDetails} setTimerDetails={setTimerDetails}/>
             {timerDetails.length >0 && (<Grid item xs={12}>
                 <Grid container justifyContent="space-evenly" spacing={4} alignItems="center">
