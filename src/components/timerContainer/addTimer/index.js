@@ -46,7 +46,7 @@ const AddTimer = (props) => {
           className={classes.inputBox}
           value={startTime}
           onChange={(e) => {
-            const value = event.target.value;
+            const value = e.target.value;
             const numericValue = parseInt(value, 10);
             if (!(numericValue === "NaN")) {
               if (isValidStartTime(numericValue)) {
