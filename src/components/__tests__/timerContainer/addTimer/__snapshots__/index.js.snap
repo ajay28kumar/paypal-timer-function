@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`addTimerComponent component tests snapshot testing with props 1`] = `
+<div
+  className="makeStyles-timerContainer-1"
+>
+  <div
+    className="makeStyles-addTimeInputContainer-2"
+  >
+    <WithStyles(ForwardRef(TextField))
+      className="makeStyles-inputBox-3"
+      fullWidth={true}
+      label="Enter Time in Seconds"
+      onChange={[Function]}
+      placeholder="Enter Countdown Timer"
+      value=""
+    />
+    <WithStyles(ForwardRef(Button))
+      color="primary"
+      disabled={false}
+      onClick={[Function]}
+      variant="outlined"
+    >
+      Add Timer
+    </WithStyles(ForwardRef(Button))>
+  </div>
+</div>
+`;

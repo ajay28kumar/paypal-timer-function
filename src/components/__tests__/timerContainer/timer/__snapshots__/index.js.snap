@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test Timer component snapshot 1`] = `
+<WithStyles(ForwardRef(Card))
+  className="makeStyles-root-1"
+  raised={true}
+>
+  <div
+    className="makeStyles-deleteContainer-5"
+  >
+    <WithStyles(ForwardRef(Typography))
+      className="makeStyles-serialCount-2"
+      color="primary"
+    >
+      1
+    </WithStyles(ForwardRef(Typography))>
+    <Memo(ForwardRef(DeleteOutlinedIcon))
+      className="cursor-pointer"
+      color="error"
+      onClick={[MockFunction]}
+    />
+  </div>
+  <div
+    className="makeStyles-container-3"
+  >
+    56
+  </div>
+  <div
+    className="makeStyles-buttonContainer-4"
+  >
+    <WithStyles(ForwardRef(Button))
+      color="secondary"
+      disabled={false}
+      id="stop-button"
+      onClick={[Function]}
+      variant="contained"
+    >
+      Stop
+    </WithStyles(ForwardRef(Button))>
+    <WithStyles(ForwardRef(Button))
+      color="primary"
+      disabled={false}
+      id="restart-button"
+      onClick={[Function]}
+      variant="outlined"
+    >
+      Restart
+    </WithStyles(ForwardRef(Button))>
+    <WithStyles(ForwardRef(Button))
+      color="primary"
+      disabled={false}
+      id="start-button"
+      onClick={[Function]}
+      variant="contained"
+    >
+      Pause
+    </WithStyles(ForwardRef(Button))>
+  </div>
+</WithStyles(ForwardRef(Card))>
+`;

@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`timer component tests snapshot testing 1`] = `
+<WithStyles(ForwardRef(Grid))
+  className="makeStyles-container-1"
+  container={true}
+  spacing={4}
+>
+  <AddTimer
+    setTimerDetails={[Function]}
+    timerDetails={Array []}
+  />
+</WithStyles(ForwardRef(Grid))>
+`;
