@@ -38,7 +38,7 @@ const AddTimer = (props) => {
   const classes = useStyles();
   const { timerDetails, setTimerDetails } = props;
   const [startTime, setStartTime] = useState("");
-  const shouldButtonDisable = timerDetails.length >= 10;
+  const shouldButtonDisable = timerDetails.length >= 10 && startTime>0;
   return (
     <div className={classes.timerContainer}>
       <div className={classes.addTimeInputContainer}>
